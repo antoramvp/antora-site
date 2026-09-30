@@ -1,0 +1,11 @@
+{
+  "name": "antora-site",
+  "private": true,
+  "scripts": {
+    "build": "antora antora-playbook.yml"
+  },
+  "devDependencies": {
+    "@antora/cli": "3.1.15",
+    "@antora/site-generator": "3.1.15"
+  }
+}
