@@ -10,6 +10,11 @@ content:
     - url: https://github.com/antoramvp/pos-integration.git
       branches: main
 
+    - url: https://github.com/antoramvp/api-docs.git
+      branches:
+        - v1.0
+        - v2.0
+
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
