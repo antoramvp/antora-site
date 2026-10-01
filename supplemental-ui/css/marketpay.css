@@ -22,3 +22,23 @@
   color: #021D1D;
 }
 
+/* Left navigation panel */
+.nav-container {
+  background: #F4F6F5;
+}
+
+/* Navigation links */
+.nav-panel-menu .nav-link {
+  color: #021D1D;
+}
+
+/* Hover */
+.nav-panel-menu .nav-link:hover {
+  color: #00A2A7;
+}
+
+/* Current page */
+.nav-panel-menu .nav-link.is-current-page {
+  color: #00A2A7;
+  font-weight: 600;
+}
