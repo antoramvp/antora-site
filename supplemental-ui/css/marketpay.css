@@ -38,9 +38,9 @@
 }
 
 /* Current page */
-.nav-panel-menu .nav-item.is-current-page > .nav-link {
-  color: #00A2A7;
-  font-weight: 600;
+.nav-menu .nav-list .nav-item.is-current-page > .nav-link {
+  color: #00A2A7 !important;
+  font-weight: 600 !important;
   border-left: 3px solid #00A2A7;
   padding-left: 0.75rem;
 }
