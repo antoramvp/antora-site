@@ -41,11 +41,6 @@
 .nav-panel-menu .nav-link.is-current-page {
   color: #00A2A7;
   font-weight: 600;
-}
-
-.nav-panel-menu .nav-link.is-current-page {
-  color: #00A2A7;
-  font-weight: 600;
   border-left: 3px solid #00A2A7;
   padding-left: 0.75rem;
 }
