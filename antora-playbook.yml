@@ -20,14 +20,9 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files:
-  - path: partials/head-styles.hbs
+  - path: partials/head-meta.hbs
     contents: |
-      <link rel="stylesheet" href="{{{uiRootPath}}}/css/site.css">
-      <style>
-        .navbar {
-          background: red !important;
-        }
-      </style>
+      <meta name="marketpay-test" content="YES">
 
 output:
   dir: ./build/site
