@@ -19,7 +19,15 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-  supplemental_files: ./supplemental-ui
+  supplemental_files:
+  - path: partials/head-styles.hbs
+    contents: |
+      <link rel="stylesheet" href="{{{uiRootPath}}}/css/site.css">
+      <style>
+        .navbar {
+          background: red !important;
+        }
+      </style>
 
 output:
   dir: ./build/site
