@@ -1,5 +1,5 @@
 site:
-  title: Antora Documentation POC
+  title: MarketPay Docs
   start_page: getting-started::index.adoc
 
 content:
