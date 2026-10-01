@@ -1,2 +1,34 @@
 <link rel="stylesheet" href="{{{uiRootPath}}}/css/site.css">
 <link rel="stylesheet" href="{{{uiRootPath}}}/css/marketpay.css">
+
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+
+        <a class="navbar-item" href="#">Release notes</a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">API Docs</a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{{siteRootPath}}}/api-docs/2.0/index.html">Version 2.0</a>
+            <a class="navbar-item" href="{{{siteRootPath}}}/api-docs/1.0/index.html">Version 1.0</a>
+          </div>
+        </div>
+
+        <a class="navbar-item" href="#">Support</a>
+
+      </div>
+    </div>
+  </nav>
+</header>
