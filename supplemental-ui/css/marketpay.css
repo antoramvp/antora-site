@@ -1,3 +1,14 @@
 .navbar {
   background: linear-gradient(90deg, #00A2A7 0%, #37DCB5 100%);
 }
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
