@@ -1,3 +1,7 @@
 .navbar {
   background: linear-gradient(90deg, #00A2A7 0%, #37DCB5 100%);
 }
+
+.navbar {
+  background: red !important;
+}
