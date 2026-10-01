@@ -1,34 +1,38 @@
 <link rel="stylesheet" href="{{{uiRootPath}}}/css/site.css">
 <link rel="stylesheet" href="{{{uiRootPath}}}/css/marketpay.css">
 
-<header class="header" role="banner">
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}</a>
-      <button class="navbar-burger" data-target="topbar-nav">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="..">MarketPay Docs</a>
 
-    <div id="topbar-nav" class="navbar-menu">
-      <div class="navbar-end">
+    <button
+      class="navbar-burger"
+      aria-controls="topbar-nav"
+      aria-expanded="false"
+      aria-label="Toggle main menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
 
-        <a class="navbar-item" href="#">Release notes</a>
+  <div id="topbar-nav" class="navbar-menu">
+    <div class="navbar-end">
 
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">API Docs</a>
+      <a class="navbar-item" href="#">Release notes</a>
 
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="{{{siteRootPath}}}/api-docs/2.0/index.html">Version 2.0</a>
-            <a class="navbar-item" href="{{{siteRootPath}}}/api-docs/1.0/index.html">Version 1.0</a>
-          </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#">API Docs</a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="../api-docs/2.0/index.html">Version 2.0</a>
+          <a class="navbar-item" href="../api-docs/1.0/index.html">Version 1.0</a>
         </div>
-
-        <a class="navbar-item" href="#">Support</a>
-
       </div>
+
+      <a class="navbar-item" href="#">Support</a>
+
     </div>
-  </nav>
-</header>
+  </div>
+</nav>
