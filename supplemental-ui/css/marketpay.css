@@ -42,3 +42,47 @@
   border-left: 3px solid #00A2A7;
   padding-left: 0.75rem;
 }
+
+/* Top navigation items */
+.navbar-end > .navbar-item,
+.navbar-end > .navbar-item > .navbar-link {
+  color: #ffffff;
+  background: transparent;
+}
+
+/* Top navigation hover: text only, no background */
+.navbar-end > .navbar-item:hover,
+.navbar-end > .navbar-item:hover > .navbar-link,
+.navbar-end > .navbar-item > .navbar-link:hover {
+  color: #021D1D;
+  background: transparent !important;
+}
+
+/* Keep API Docs parent transparent while dropdown is open */
+.navbar-end > .navbar-item.has-dropdown:hover {
+  background: transparent !important;
+}
+
+.navbar-end > .navbar-item.has-dropdown:hover > .navbar-link {
+  color: #021D1D;
+  background: transparent !important;
+}
+
+
+/* API Docs dropdown */
+.navbar .navbar-dropdown {
+  background: #F4F6F5;
+}
+
+.navbar .navbar-dropdown .navbar-item {
+  color: #021D1D;
+  background: transparent;
+  font-weight: 400;
+}
+
+/* Dropdown hover: dark text, bold only */
+.navbar .navbar-dropdown .navbar-item:hover {
+  color: #021D1D;
+  background: transparent !important;
+  font-weight: 600;
+}
