@@ -17,10 +17,12 @@
   color: #ffffff;
 }
 
+/* ---
 .navbar a:hover,
 .navbar .navbar-item:hover {
   color: #021D1D;
 }
+--- */
 
 /* Left navigation panel */
 .nav-container {
@@ -43,6 +45,44 @@
   padding-left: 0.75rem;
 }
 
+/* Top navigation */
+.navbar-end > a.navbar-item,
+.navbar-end > .navbar-item > .navbar-link {
+  color: #ffffff;
+  background: transparent;
+}
+
+/* Top navigation hover */
+.navbar-end > a.navbar-item:hover,
+.navbar-end > .navbar-item:hover > .navbar-link {
+  color: #021D1D;
+  background: transparent !important;
+}
+
+/* Keep API Docs container transparent */
+.navbar-end > .navbar-item.has-dropdown:hover {
+  background: transparent !important;
+}
+
+
+/* API Docs dropdown */
+.navbar .navbar-dropdown {
+  background: #F4F6F5;
+}
+
+.navbar .navbar-dropdown .navbar-item {
+  color: #021D1D;
+  background: transparent;
+  font-weight: 400;
+}
+
+.navbar .navbar-dropdown .navbar-item:hover {
+  color: #021D1D;
+  background: transparent !important;
+  font-weight: 600;
+}
+
+/* --- older version
 /* Top navigation items */
 .navbar-end > .navbar-item,
 .navbar-end > .navbar-item > .navbar-link {
@@ -86,3 +126,4 @@
   background: transparent !important;
   font-weight: 600;
 }
+end of older version --- */
