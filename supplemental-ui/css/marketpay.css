@@ -12,3 +12,13 @@
   color: #ffffff;
 }
 
+.navbar a,
+.navbar .navbar-item {
+  color: #ffffff;
+}
+
+.navbar a:hover,
+.navbar .navbar-item:hover {
+  color: #021D1D;
+}
+
