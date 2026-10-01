@@ -8,8 +8,12 @@
   color: #ffffff;
 }
 
-.navbar .navbar-brand:hover {
+.navbar-brand .navbar-item {
   color: #ffffff;
+}
+
+.navbar-brand .navbar-item:hover {
+  color: #021D1D;
 }
 
 .navbar a,
